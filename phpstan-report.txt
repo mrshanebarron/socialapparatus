@@ -1,0 +1,959 @@
+ ------ --------------------------------------------------------------------------------------------- 
+  Line   app/Actions/Jetstream/CreateTeam.php                                                         
+ ------ --------------------------------------------------------------------------------------------- 
+  35     Method App\Actions\Jetstream\CreateTeam::create() should return App\Models\Team but returns  
+         Illuminate\Database\Eloquent\Model.                                                          
+         🪪  return.type                                                                              
+ ------ --------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------- 
+  Line   app/Actions/Jetstream/DeleteUser.php                                                             
+ ------ ------------------------------------------------------------------------------------------------- 
+  40     Parameter #1 $callback of method Illuminate\Support\Collection<int,Illuminate\Database\Eloquent  
+         \Model>::each() expects callable(Illuminate\Database\Eloquent\Model, int): mixed, Closure(App\M  
+         odels\Team): void given.                                                                         
+         🪪  argument.type                                                                                
+ ------ ------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------- 
+  Line   app/Actions/Jetstream/InviteTeamMember.php                                                   
+ ------ --------------------------------------------------------------------------------------------- 
+  37     Parameter #1 $invitation of class Laravel\Jetstream\Mail\TeamInvitation constructor expects  
+         Laravel\Jetstream\TeamInvitation, Illuminate\Database\Eloquent\Model given.                  
+         🪪  argument.type                                                                            
+ ------ --------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   app/Actions/Jetstream/RemoveTeamMember.php                                             
+ ------ --------------------------------------------------------------------------------------- 
+  45     Access to an undefined property Illuminate\Database\Eloquent\Model::$id.               
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Avatars/Editor.php                                                               
+ ------ ---------------------------------------------------------------------------------------------- 
+  46     Access to an undefined property Illuminate\Database\Eloquent\Model::$slug.                    
+         🪪  property.notFound                                                                         
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property         
+  82     Using nullsafe property access "?->parts" on left side of ?? is unnecessary. Use -> instead.  
+         🪪  nullsafe.neverNull                                                                        
+ ------ ---------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Boards/Show.php                                                           
+ ------ --------------------------------------------------------------------------------------- 
+  53     Access to an undefined property App\Models\Board::$visibility.                         
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  61     Access to an undefined property Illuminate\Database\Eloquent\Model&object{pivot:       
+         Illuminate\Database\Eloquent\Relations\Pivot}::$role.                                  
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------ 
+  Line   app/Livewire/Coins/Purchase.php                                                                 
+ ------ ------------------------------------------------------------------------------------------------ 
+  58     Using nullsafe property access "?->balance" on left side of ?? is unnecessary. Use -> instead.  
+         🪪  nullsafe.neverNull                                                                          
+ ------ ------------------------------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Collections/Show.php                                                      
+ ------ --------------------------------------------------------------------------------------- 
+  24     Access to an undefined property App\Models\Collection::$privacy.                       
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  33     Access to an undefined property App\Models\Collection::$privacy.                       
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  67     Access to an undefined property App\Models\Collection::$is_default.                    
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Connections/ConnectionButton.php                                           
+ ------ ---------------------------------------------------------------------------------------- 
+  66     Call to an undefined method Illuminate\Database\Eloquent\Relations\HasMany::friends().  
+         🪪  method.notFound                                                                     
+  84     Call to an undefined method Illuminate\Database\Eloquent\Relations\HasMany::friends().  
+         🪪  method.notFound                                                                     
+  102    Call to an undefined method Illuminate\Database\Eloquent\Relations\HasMany::friends().  
+         🪪  method.notFound                                                                     
+ ------ ---------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Connections/FollowersList.php                                                       
+ ------ ------------------------------------------------------------------------------------------------- 
+  41     Using nullsafe property access "?->display_name" on left side of ?? is unnecessary. Use ->       
+         instead.                                                                                         
+         🪪  nullsafe.neverNull                                                                           
+  42     Using nullsafe property access "?->username" on left side of ?? is unnecessary. Use -> instead.  
+         🪪  nullsafe.neverNull                                                                           
+ ------ ------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Connections/FriendsList.php                                                         
+ ------ ------------------------------------------------------------------------------------------------- 
+  49     Using nullsafe property access "?->display_name" on left side of ?? is unnecessary. Use ->       
+         instead.                                                                                         
+         🪪  nullsafe.neverNull                                                                           
+  50     Using nullsafe property access "?->username" on left side of ?? is unnecessary. Use -> instead.  
+         🪪  nullsafe.neverNull                                                                           
+  57     Access to an undefined property Illuminate\Database\Eloquent\Model::$display_name.               
+         🪪  property.notFound                                                                            
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property            
+ ------ ------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Connections/PendingRequests.php                                            
+ ------ ---------------------------------------------------------------------------------------- 
+  11     Call to an undefined method Illuminate\Database\Eloquent\Relations\HasMany::friends().  
+         🪪  method.notFound                                                                     
+  25     Call to an undefined method Illuminate\Database\Eloquent\Relations\HasMany::friends().  
+         🪪  method.notFound                                                                     
+ ------ ---------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Digest/Preferences.php                                                    
+ ------ --------------------------------------------------------------------------------------- 
+  23     Access to an undefined property App\Models\DigestPreference::$is_enabled.              
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  25     Access to an undefined property App\Models\DigestPreference::$preferred_day.           
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Events/Reminders.php                                                      
+ ------ --------------------------------------------------------------------------------------- 
+  30     Match expression does not handle remaining value: string                               
+         🪪  match.unhandled                                                                    
+  31     Access to an undefined property App\Models\Event::$start_date.                         
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  32     Access to an undefined property App\Models\Event::$start_date.                         
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  33     Access to an undefined property App\Models\Event::$start_date.                         
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  34     Access to an undefined property App\Models\Event::$start_date.                         
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  35     Access to an undefined property App\Models\Event::$start_date.                         
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  36     Access to an undefined property App\Models\Event::$start_date.                         
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------- 
+  Line   app/Livewire/Events/Show.php                                                      
+ ------ ---------------------------------------------------------------------------------- 
+  35     Call to an undefined method Illuminate\Database\Eloquent\Model::isFriendsWith().  
+         🪪  method.notFound                                                               
+ ------ ---------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Events/Tickets.php                                                        
+ ------ --------------------------------------------------------------------------------------- 
+  106    Access to an undefined property App\Models\EventTicketType::$quantity_available.       
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  106    Access to an undefined property App\Models\EventTicketType::$quantity_sold.            
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  113    Access to an undefined property App\Models\EventTicketType::$max_per_user.             
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   app/Livewire/FactCheck/Index.php                                           
+ ------ --------------------------------------------------------------------------- 
+  19     Relation 'verifier' is not found in App\Models\ContentVerification model.  
+         🪪  larastan.relationExistence                                             
+ ------ --------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------- 
+  Line   app/Livewire/FactCheck/Verify.php                                          
+ ------ --------------------------------------------------------------------------- 
+  31     Relation 'verifier' is not found in App\Models\ContentVerification model.  
+         🪪  larastan.relationExistence                                             
+ ------ --------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Feed/BirthdayReminders.php                                                
+ ------ --------------------------------------------------------------------------------------- 
+  40     Access to an undefined property App\Models\User::$profile_photo_url.                   
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Feed/CreatePost.php                                                                 
+ ------ ------------------------------------------------------------------------------------------------- 
+  207    Parameter #1 $callback of method Illuminate\Database\Eloquent\Collection<int,App\Models\User>::  
+         map() contains unresolvable type.                                                                
+         🪪  argument.unresolvableType                                                                    
+  210    Access to an undefined property App\Models\User::$username.                                      
+         🪪  property.notFound                                                                            
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property            
+  211    Access to an undefined property App\Models\User::$profile_photo_url.                             
+         🪪  property.notFound                                                                            
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property            
+ ------ ------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   app/Livewire/Feed/PostCard.php                                           
+ ------ ------------------------------------------------------------------------- 
+  121    Call to an undefined method Illuminate\Database\Eloquent\Model::vote().  
+         🪪  method.notFound                                                      
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------ 
+  Line   app/Livewire/Fundraisers/Show.php                                                         
+ ------ ------------------------------------------------------------------------------------------ 
+  81     Call to an undefined method Illuminate\Database\Eloquent\Relations\HasMany::completed().  
+         🪪  method.notFound                                                                       
+ ------ ------------------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------------------------ 
+  Line   app/Livewire/Gifts/Index.php                                                                    
+ ------ ------------------------------------------------------------------------------------------------ 
+  73     Access to an undefined property Illuminate\Database\Eloquent\Model::$accept_gifts.              
+         🪪  property.notFound                                                                           
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property           
+  96     Using nullsafe property access "?->balance" on left side of ?? is unnecessary. Use -> instead.  
+         🪪  nullsafe.neverNull                                                                          
+ ------ ------------------------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------------------------ 
+  Line   app/Livewire/Gifts/SendTip.php                                                                  
+ ------ ------------------------------------------------------------------------------------------------ 
+  32     Access to an undefined property Illuminate\Database\Eloquent\Model::$accept_tips.               
+         🪪  property.notFound                                                                           
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property           
+  56     Using nullsafe property access "?->minimum_tip" on left side of ?? is unnecessary. Use ->       
+         instead.                                                                                        
+         🪪  nullsafe.neverNull                                                                          
+  104    Using nullsafe property access "?->balance" on left side of ?? is unnecessary. Use -> instead.  
+         🪪  nullsafe.neverNull                                                                          
+  109    Using nullsafe property access "?->minimum_tip" on left side of ?? is unnecessary. Use ->       
+         instead.                                                                                        
+         🪪  nullsafe.neverNull                                                                          
+ ------ ------------------------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Groups/Members.php                                                                  
+ ------ ------------------------------------------------------------------------------------------------- 
+  46     Call to an undefined method Illuminate\Database\Eloquent\Collection<int, Illuminate\Database\El  
+         oquent\Model>|Illuminate\Database\Eloquent\Model::approve().                                     
+         🪪  method.notFound                                                                              
+  62     Access to an undefined property Illuminate\Database\Eloquent\Collection<int, Illuminate\Databas  
+         e\Eloquent\Model>|Illuminate\Database\Eloquent\Model::$user_id.                                  
+         🪪  property.notFound                                                                            
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property            
+  63     Access to an undefined property Illuminate\Database\Eloquent\Collection<int, Illuminate\Databas  
+         e\Eloquent\Model>|Illuminate\Database\Eloquent\Model::$status.                                   
+         🪪  property.notFound                                                                            
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property            
+  75     Call to an undefined method Illuminate\Database\Eloquent\Collection<int, Illuminate\Database\El  
+         oquent\Model>|Illuminate\Database\Eloquent\Model::promote().                                     
+         🪪  method.notFound                                                                              
+ ------ ------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Marketplace/Show.php                                                                
+ ------ ------------------------------------------------------------------------------------------------- 
+  23     Comparison operation ">" between int<1, max> and 0 is always true.                               
+         🪪  greater.alwaysTrue                                                                           
+         💡  Because the type is coming from a PHPDoc, you can turn off this check by setting treatPhpDoc  
+         TypesAsCertain: false in your phpstan.neon.                                                      
+  30     Comparison operation ">" between int<1, max> and 0 is always true.                               
+         🪪  greater.alwaysTrue                                                                           
+         💡  Because the type is coming from a PHPDoc, you can turn off this check by setting treatPhpDoc  
+         TypesAsCertain: false in your phpstan.neon.                                                      
+ ------ ------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Media/CreateAlbum.php                                                     
+ ------ --------------------------------------------------------------------------------------- 
+  45     Access to an undefined property Illuminate\Database\Eloquent\Model::$id.               
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   app/Livewire/Messages/ConversationList.php                                   
+ ------ ----------------------------------------------------------------------------- 
+  32     Parameter #1 $view of function view expects view-string|null, string given.  
+         🪪  argument.type                                                            
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Moderation/Queue.php                                                      
+ ------ --------------------------------------------------------------------------------------- 
+  37     Relation 'reportable' is not found in App\Models\ModerationQueue model.                
+         🪪  larastan.relationExistence                                                         
+  37     Relation 'reporter' is not found in App\Models\ModerationQueue model.                  
+         🪪  larastan.relationExistence                                                         
+  37     Relation 'user' is not found in App\Models\ModerationQueue model.                      
+         🪪  larastan.relationExistence                                                         
+  68     Access to an undefined property App\Models\ModerationQueue::$content_type.             
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  69     Access to an undefined property App\Models\ModerationQueue::$content_id.               
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  78     Access to an undefined property App\Models\ModerationQueue::$reportable.               
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  85     Access to an undefined property App\Models\ModerationQueue::$reportable.               
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  92     Access to an undefined property App\Models\ModerationQueue::$user_id.                  
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  98     Access to an undefined property App\Models\ModerationQueue::$content_type.             
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  99     Access to an undefined property App\Models\ModerationQueue::$content_id.               
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  106    Access to an undefined property App\Models\ModerationQueue::$user_id.                  
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  135    Relation 'assignedModerator' is not found in App\Models\ModerationQueue model.         
+         🪪  larastan.relationExistence                                                         
+  135    Relation 'reportable' is not found in App\Models\ModerationQueue model.                
+         🪪  larastan.relationExistence                                                         
+  135    Relation 'reporter' is not found in App\Models\ModerationQueue model.                  
+         🪪  larastan.relationExistence                                                         
+  135    Relation 'user' is not found in App\Models\ModerationQueue model.                      
+         🪪  larastan.relationExistence                                                         
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   app/Livewire/Moderation/Rules.php                                    
+ ------ --------------------------------------------------------------------- 
+  73     Relation 'creator' is not found in App\Models\ModerationRule model.  
+         🪪  larastan.relationExistence                                       
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Notifications/NotificationDropdown.php                                    
+ ------ --------------------------------------------------------------------------------------- 
+  27     Call to an undefined method Illuminate\Database\Eloquent\Relations\HasMany::unread().  
+         🪪  method.notFound                                                                    
+  38     Call to an undefined method Illuminate\Database\Eloquent\Relations\HasMany::unread().  
+         🪪  method.notFound                                                                    
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Notifications/NotificationList.php                                        
+ ------ --------------------------------------------------------------------------------------- 
+  31     Call to an undefined method Illuminate\Database\Eloquent\Relations\HasMany::unread().  
+         🪪  method.notFound                                                                    
+  39     Call to an undefined method Illuminate\Database\Eloquent\Relations\HasMany::unread().  
+         🪪  method.notFound                                                                    
+  44     Call to an undefined method Illuminate\Database\Eloquent\Relations\HasMany::unread().  
+         🪪  method.notFound                                                                    
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Onboarding/Welcome.php                                                              
+ ------ ------------------------------------------------------------------------------------------------- 
+  32     Using nullsafe property access "?->display_name" on left side of ?? is unnecessary. Use ->       
+         instead.                                                                                         
+         🪪  nullsafe.neverNull                                                                           
+  33     Using nullsafe property access "?->headline" on left side of ?? is unnecessary. Use -> instead.  
+         🪪  nullsafe.neverNull                                                                           
+  34     Using nullsafe property access "?->bio" on left side of ?? is unnecessary. Use -> instead.       
+         🪪  nullsafe.neverNull                                                                           
+  35     Using nullsafe property access "?->location" on left side of ?? is unnecessary. Use -> instead.  
+         🪪  nullsafe.neverNull                                                                           
+ ------ ------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Pokes/Index.php                                                                     
+ ------ ------------------------------------------------------------------------------------------------- 
+  22     Parameter #1 $poke of method App\Models\User::pokeBack() expects App\Models\Poke,                
+         Illuminate\Database\Eloquent\Collection<int, Illuminate\Database\Eloquent\Model>|Illuminate\Dat  
+         abase\Eloquent\Model given.                                                                      
+         🪪  argument.type                                                                                
+ ------ ------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   app/Livewire/Profile/Badges.php                                 
+ ------ ---------------------------------------------------------------- 
+  34     Call to an undefined static method App\Models\Badge::active().  
+         🪪  staticMethod.notFound                                       
+ ------ ---------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Profile/Edit.php                                                                 
+ ------ ---------------------------------------------------------------------------------------------- 
+  92     Using nullsafe property access "?->value" on left side of ?? is unnecessary. Use -> instead.  
+         🪪  nullsafe.neverNull                                                                        
+  93     Using nullsafe property access "?->visibility" on left side of ?? is unnecessary. Use ->      
+         instead.                                                                                      
+         🪪  nullsafe.neverNull                                                                        
+ ------ ---------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   app/Livewire/Profile/Show.php                                               
+ ------ ---------------------------------------------------------------------------- 
+  44     Call to an undefined method Illuminate\Database\Eloquent\Model::posts().    
+         🪪  method.notFound                                                         
+  53     Call to an undefined method Illuminate\Database\Eloquent\Model::media().    
+         🪪  method.notFound                                                         
+  61     Call to an undefined method Illuminate\Database\Eloquent\Model::friends().  
+         🪪  method.notFound                                                         
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   app/Livewire/ProfileFrames/Index.php                                                   
+ ------ --------------------------------------------------------------------------------------- 
+  61     Access to an undefined property Illuminate\Database\Eloquent\Model::$balance.          
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Questions/Ask.php                                                                   
+ ------ ------------------------------------------------------------------------------------------------- 
+  20     Access to an undefined property Illuminate\Database\Eloquent\Model::$allow_questions.            
+         🪪  property.notFound                                                                            
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property            
+  29     Access to an undefined property Illuminate\Database\Eloquent\Model::$allow_anonymous_questions.  
+         🪪  property.notFound                                                                            
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property            
+  45     Using nullsafe property access "?->allow_anonymous_questions" on left side of ?? is              
+         unnecessary. Use -> instead.                                                                     
+         🪪  nullsafe.neverNull                                                                           
+ ------ ------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Questions/ProfileQuestions.php                                                      
+ ------ ------------------------------------------------------------------------------------------------- 
+  29     Call to an undefined method Illuminate\Database\Eloquent\Collection<int, Illuminate\Database\El  
+         oquent\Model>|Illuminate\Database\Eloquent\Model::likes().                                       
+         🪪  method.notFound                                                                              
+  32     Call to an undefined method Illuminate\Database\Eloquent\Collection<int, Illuminate\Database\El  
+         oquent\Model>|Illuminate\Database\Eloquent\Model::likes().                                       
+         🪪  method.notFound                                                                              
+  35     Call to an undefined method Illuminate\Database\Eloquent\Collection<int, Illuminate\Database\El  
+         oquent\Model>|Illuminate\Database\Eloquent\Model::likes().                                       
+         🪪  method.notFound                                                                              
+ ------ ------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Security/Sessions.php                                                               
+ ------ ------------------------------------------------------------------------------------------------- 
+  16     Access to an undefined property Illuminate\Database\Eloquent\Collection<int, Illuminate\Databas  
+         e\Eloquent\Model>|Illuminate\Database\Eloquent\Model::$is_current.                               
+         🪪  property.notFound                                                                            
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property            
+ ------ ------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Series/Show.php                                                           
+ ------ --------------------------------------------------------------------------------------- 
+  26     Access to an undefined property App\Models\Series::$visibility.                        
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  83     Call to an undefined method App\Models\Series::updateItemCount().                      
+         🪪  method.notFound                                                                    
+  94     Call to an undefined method App\Models\Series::updateItemCount().                      
+         🪪  method.notFound                                                                    
+  117    Access to an undefined property Illuminate\Database\Eloquent\Model::$completed_items.  
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  120    Access to an undefined property Illuminate\Database\Eloquent\Model::$last_item_id.     
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  121    Access to an undefined property Illuminate\Database\Eloquent\Model::$last_watched_at.  
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  134    Access to an undefined property Illuminate\Database\Eloquent\Model::$completed_items.  
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Settings/CloseFriends.php                                                      
+ ------ -------------------------------------------------------------------------------------------- 
+  43     Using nullsafe property access "?->display_name" on left side of ?? is unnecessary. Use ->  
+         instead.                                                                                    
+         🪪  nullsafe.neverNull                                                                      
+ ------ -------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Stories/Highlights.php                                                              
+ ------ ------------------------------------------------------------------------------------------------- 
+  85     Call to an undefined method App\Models\StoryHighlight::items().                                  
+         🪪  method.notFound                                                                              
+  96     Relation 'items' is not found in App\Models\StoryHighlight model.                                
+         🪪  larastan.relationExistence                                                                   
+  109    Access to an undefined property App\Models\StoryHighlight::$items.                               
+         🪪  property.notFound                                                                            
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property            
+  123    Relation 'items' is not found in App\Models\StoryHighlight model.                                
+         🪪  larastan.relationExistence                                                                   
+  125    Access to an undefined property App\Models\StoryHighlight::$items.                               
+         🪪  property.notFound                                                                            
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property            
+  151    Call to an undefined method App\Models\StoryHighlight::items().                                  
+         🪪  method.notFound                                                                              
+  153    Call to an undefined method App\Models\StoryHighlight::items().                                  
+         🪪  method.notFound                                                                              
+  167    Call to an undefined method App\Models\StoryHighlight|Illuminate\Database\Eloquent\Collection<i  
+         nt, App\Models\StoryHighlight>::items().                                                         
+         🪪  method.notFound                                                                              
+  173    Relation 'items' is not found in App\Models\StoryHighlight model.                                
+         🪪  larastan.relationExistence                                                                   
+ ------ ------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Stories/StoryBar.php                                                                
+ ------ ------------------------------------------------------------------------------------------------- 
+  91     Call to an undefined method Illuminate\Database\Eloquent\Builder<Illuminate\Database\Eloquent\M  
+         odel>::active().                                                                                 
+         🪪  method.notFound                                                                              
+  113    Call to an undefined method Illuminate\Database\Eloquent\Relations\HasMany::active().            
+         🪪  method.notFound                                                                              
+ ------ ------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------- 
+  Line   app/Livewire/Stories/StoryInteractions.php                                                       
+ ------ ------------------------------------------------------------------------------------------------- 
+  165    Call to an undefined method App\Models\StoryPoll|Illuminate\Database\Eloquent\Collection<int, A  
+         pp\Models\StoryPoll>::hasVoted().                                                                
+         🪪  method.notFound                                                                              
+  212    Call to an undefined method App\Models\StoryQuiz|Illuminate\Database\Eloquent\Collection<int, A  
+         pp\Models\StoryQuiz>::hasAnswered().                                                             
+         🪪  method.notFound                                                                              
+  216    Access to an undefined property App\Models\StoryQuiz|Illuminate\Database\Eloquent\Collection<in  
+         t, App\Models\StoryQuiz>::$correct_option.                                                       
+         🪪  property.notFound                                                                            
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property            
+ ------ ------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   app/Models/Album.php                                                                   
+ ------ --------------------------------------------------------------------------------------- 
+  81     Call to an undefined method Illuminate\Database\Eloquent\Model::isFriendsWith().       
+         🪪  method.notFound                                                                    
+  94     Access to an undefined property Illuminate\Database\Eloquent\Model::$path.             
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  94     Access to an undefined property Illuminate\Database\Eloquent\Model::$thumbnail.        
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  94     Expression on left side of ?? is not nullable.                                         
+         🪪  nullCoalesce.expr                                                                  
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------- 
+  Line   app/Models/Article.php                                                                           
+ ------ ------------------------------------------------------------------------------------------------- 
+  90     Call to an undefined method Illuminate\Database\Eloquent\Builder<Illuminate\Database\Eloquent\M  
+         odel>::friends().                                                                                
+         🪪  method.notFound                                                                              
+  92     Call to an undefined method Illuminate\Database\Eloquent\Builder<Illuminate\Database\Eloquent\M  
+         odel>::friends().                                                                                
+         🪪  method.notFound                                                                              
+  119    Call to an undefined method Illuminate\Database\Eloquent\Model::isFriendsWith().                 
+         🪪  method.notFound                                                                              
+ ------ ------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------- 
+  Line   app/Models/CoinBalance.php                                                           
+ ------ ------------------------------------------------------------------------------------- 
+  23     Call to an undefined method Illuminate\Database\Eloquent\Model::coinTransactions().  
+         🪪  method.notFound                                                                  
+  41     Call to an undefined method Illuminate\Database\Eloquent\Model::coinTransactions().  
+         🪪  method.notFound                                                                  
+ ------ ------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   app/Models/Connection.php                                                              
+ ------ --------------------------------------------------------------------------------------- 
+  56     Access to an undefined property Illuminate\Database\Eloquent\Model::$profile.          
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  57     Access to an undefined property Illuminate\Database\Eloquent\Model::$profile.          
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  59     Access to an undefined property Illuminate\Database\Eloquent\Model::$profile.          
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  60     Access to an undefined property Illuminate\Database\Eloquent\Model::$profile.          
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------- 
+  Line   app/Models/Conversation.php                                                                  
+ ------ --------------------------------------------------------------------------------------------- 
+  71     Using nullsafe property access "?->display_name" on left side of ?? is unnecessary. Use ->   
+         instead.                                                                                     
+         🪪  nullsafe.neverNull                                                                       
+  72     Using nullsafe property access "?->name" on left side of ?? is unnecessary. Use -> instead.  
+         🪪  nullsafe.neverNull                                                                       
+  83     Access to an undefined property Illuminate\Database\Eloquent\Model::$avatar_url.             
+         🪪  property.notFound                                                                        
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property        
+  95     Using nullsafe property access "?->avatar_url" on left side of ?? is unnecessary. Use ->     
+         instead.                                                                                     
+         🪪  nullsafe.neverNull                                                                       
+  107    Access to an undefined property Illuminate\Database\Eloquent\Model::$last_read_at.           
+         🪪  property.notFound                                                                        
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property        
+  196    Method App\Models\Conversation::sendMessage() should return App\Models\Message but returns   
+         Illuminate\Database\Eloquent\Model.                                                          
+         🪪  return.type                                                                              
+  204    Call to an undefined method Illuminate\Database\Eloquent\Model::startTyping().               
+         🪪  method.notFound                                                                          
+  206    Call to an undefined method Illuminate\Database\Eloquent\Model::stopTyping().                
+         🪪  method.notFound                                                                          
+ ------ --------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------- 
+  Line   app/Models/Event.php                                                                             
+ ------ ------------------------------------------------------------------------------------------------- 
+  101    Call to an undefined method Illuminate\Database\Eloquent\Builder<Illuminate\Database\Eloquent\M  
+         odel>::friends().                                                                                
+         🪪  method.notFound                                                                              
+  102    Call to an undefined method Illuminate\Database\Eloquent\Builder<Illuminate\Database\Eloquent\M  
+         odel>::friends().                                                                                
+         🪪  method.notFound                                                                              
+  112    Access to an undefined property Illuminate\Database\Eloquent\Model::$status.                     
+         🪪  property.notFound                                                                            
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property            
+  120    Access to an undefined property Illuminate\Database\Eloquent\Model::$status.                     
+         🪪  property.notFound                                                                            
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property            
+  125    Method App\Models\Event::setRsvp() should return App\Models\EventRsvp but returns                
+         Illuminate\Database\Eloquent\Model.                                                              
+         🪪  return.type                                                                                  
+  132    Method App\Models\Event::setRsvp() should return App\Models\EventRsvp but returns                
+         Illuminate\Database\Eloquent\Model.                                                              
+         🪪  return.type                                                                                  
+  138    Method App\Models\Event::setRsvp() should return App\Models\EventRsvp but returns                
+         Illuminate\Database\Eloquent\Model.                                                              
+         🪪  return.type                                                                                  
+  176    Call to an undefined method Illuminate\Database\Eloquent\Model::isFriendsWith().                 
+         🪪  method.notFound                                                                              
+ ------ ------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------- 
+  Line   app/Models/Fundraiser.php                                                               
+ ------ ---------------------------------------------------------------------------------------- 
+  63     Parameter #1 $num of function number_format expects float, string given.                
+         🪪  argument.type                                                                       
+  68     Parameter #1 $num of function number_format expects float, string given.                
+         🪪  argument.type                                                                       
+  74     Parameter #2 $amount of method Illuminate\Database\Eloquent\Model::increment() expects  
+         float|int, string given.                                                                
+         🪪  argument.type                                                                       
+ ------ ---------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------- 
+  Line   app/Models/FundraiserDonation.php                                                            
+ ------ --------------------------------------------------------------------------------------------- 
+  43     Using nullsafe property access "?->name" on left side of ?? is unnecessary. Use -> instead.  
+         🪪  nullsafe.neverNull                                                                       
+  48     Parameter #1 $num of function number_format expects float, string given.                     
+         🪪  argument.type                                                                            
+  54     Call to an undefined method Illuminate\Database\Eloquent\Model::addDonation().               
+         🪪  method.notFound                                                                          
+ ------ --------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------ 
+  Line   app/Models/Group.php                                                                            
+ ------ ------------------------------------------------------------------------------------------------ 
+  129    Deprecated in PHP 8.4: Parameter #1 $user (App\Models\User) is implicitly nullable via default  
+         value null.                                                                                     
+         🪪  parameter.implicitlyNullable                                                                
+  147    Deprecated in PHP 8.4: Parameter #1 $user (App\Models\User) is implicitly nullable via default  
+         value null.                                                                                     
+         🪪  parameter.implicitlyNullable                                                                
+  179    Method App\Models\Group::join() should return App\Models\GroupMember|null but returns           
+         Illuminate\Database\Eloquent\Model.                                                             
+         🪪  return.type                                                                                 
+  189    Access to an undefined property Illuminate\Database\Eloquent\Model::$status.                    
+         🪪  property.notFound                                                                           
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property           
+ ------ ------------------------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------------------------- 
+  Line   app/Models/GroupInvitation.php                                                                   
+ ------ ------------------------------------------------------------------------------------------------- 
+  38     Method Illuminate\Database\Eloquent\Builder<Illuminate\Database\Eloquent\Model>::join() invoked  
+          with 1 parameter, 2-6 required.                                                                 
+         🪪  arguments.count                                                                              
+ ------ ------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------- 
+  Line   app/Models/MarketplaceListing.php                                                                
+ ------ ------------------------------------------------------------------------------------------------- 
+  71     Comparison operation ">" between int<1, max> and 0 is always true.                               
+         🪪  greater.alwaysTrue                                                                           
+         💡  Because the type is coming from a PHPDoc, you can turn off this check by setting treatPhpDoc  
+         TypesAsCertain: false in your phpstan.neon.                                                      
+  79     Parameter #1 $num of function number_format expects float, string given.                         
+         🪪  argument.type                                                                                
+ ------ ------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------- 
+  Line   app/Models/Media.php                                                              
+ ------ ---------------------------------------------------------------------------------- 
+  86     Method App\Models\Media::tagUser() should return App\Models\PhotoTag but returns  
+         Illuminate\Database\Eloquent\Model.                                               
+         🪪  return.type                                                                   
+  144    Call to an undefined method Illuminate\Database\Eloquent\Model::isFriendsWith().  
+         🪪  method.notFound                                                               
+ ------ ---------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------- 
+  Line   app/Models/Mention.php                                                                           
+ ------ ------------------------------------------------------------------------------------------------- 
+  33     Offset 1 on array{list<string>, list<non-empty-string>} on left side of ?? always exists and is  
+          not nullable.                                                                                   
+         🪪  nullCoalesce.offset                                                                          
+  48     Call to an undefined method Illuminate\Database\Eloquent\Model::mentions().                      
+         🪪  method.notFound                                                                              
+  56     Access to an undefined property Illuminate\Database\Eloquent\Model::$user_id.                    
+         🪪  property.notFound                                                                            
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property            
+  59     Access to an undefined property Illuminate\Database\Eloquent\Model::$id.                         
+         🪪  property.notFound                                                                            
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property            
+ ------ ------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------- 
+  Line   app/Models/Message.php                                                                         
+ ------ ----------------------------------------------------------------------------------------------- 
+  41     Access to an undefined property Illuminate\Database\Eloquent\Model::$emoji.                    
+         🪪  property.notFound                                                                          
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property          
+  46     Method App\Models\Message::toggleReaction() should return App\Models\MessageReaction|null but  
+         returns Illuminate\Database\Eloquent\Model.                                                    
+         🪪  return.type                                                                                
+  49     Method App\Models\Message::toggleReaction() should return App\Models\MessageReaction|null but  
+         returns Illuminate\Database\Eloquent\Model.                                                    
+         🪪  return.type                                                                                
+ ------ ----------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   app/Models/Poll.php                                                                    
+ ------ --------------------------------------------------------------------------------------- 
+  69     Access to an undefined property Illuminate\Database\Eloquent\Model::$option.           
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   app/Models/PollOption.php                                                              
+ ------ --------------------------------------------------------------------------------------- 
+  30     Access to an undefined property Illuminate\Database\Eloquent\Model::$total_votes.      
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------- 
+  Line   app/Models/Post.php                                                                           
+ ------ ---------------------------------------------------------------------------------------------- 
+  274    Method App\Models\Post::getUserReaction() should return App\Models\Reaction|null but returns  
+         Illuminate\Database\Eloquent\Model|null.                                                      
+         🪪  return.type                                                                               
+  296    Method App\Models\Post::addReaction() should return App\Models\Reaction but returns           
+         Illuminate\Database\Eloquent\Model.                                                           
+         🪪  return.type                                                                               
+  354    Call to an undefined method Illuminate\Database\Eloquent\Model::isFriendsWith().              
+         🪪  method.notFound                                                                           
+  515    Using nullsafe property access "?->nodeValue" on left side of ?? is unnecessary. Use ->       
+         instead.                                                                                      
+         🪪  nullsafe.neverNull                                                                        
+  516    Using nullsafe property access "?->nodeValue" on left side of ?? is unnecessary. Use ->       
+         instead.                                                                                      
+         🪪  nullsafe.neverNull                                                                        
+  518    Using nullsafe property access "?->nodeValue" on left side of ?? is unnecessary. Use ->       
+         instead.                                                                                      
+         🪪  nullsafe.neverNull                                                                        
+  519    Using nullsafe property access "?->nodeValue" on left side of ?? is unnecessary. Use ->       
+         instead.                                                                                      
+         🪪  nullsafe.neverNull                                                                        
+  521    Using nullsafe property access "?->nodeValue" on left side of ?? is unnecessary. Use ->       
+         instead.                                                                                      
+         🪪  nullsafe.neverNull                                                                        
+ ------ ---------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------- 
+  Line   app/Models/Profile.php                                                                 
+ ------ --------------------------------------------------------------------------------------- 
+  90     Access to an undefined property Illuminate\Database\Eloquent\Model::$name.             
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+  163    Access to an undefined property Illuminate\Database\Eloquent\Model::$value.            
+         🪪  property.notFound                                                                  
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property  
+ ------ --------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------- 
+  Line   app/Models/Reaction.php                                                                          
+ ------ ------------------------------------------------------------------------------------------------- 
+  44     Offset 'angry'|'haha'|'like'|'love'|'sad'|'wow' on array{like: '👍', love: '❤️', haha: '😂', wow:  
+         '😮', sad: '😢', angry: '😠'} on left side of ?? always exists and is not nullable.              
+         🪪  nullCoalesce.offset                                                                          
+ ------ ------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------- 
+  Line   app/Models/Report.php                                                                         
+ ------ ---------------------------------------------------------------------------------------------- 
+  50     Deprecated in PHP 8.4: Parameter #2 $notes (string) is implicitly nullable via default value  
+         null.                                                                                         
+         🪪  parameter.implicitlyNullable                                                              
+  60     Deprecated in PHP 8.4: Parameter #2 $notes (string) is implicitly nullable via default value  
+         null.                                                                                         
+         🪪  parameter.implicitlyNullable                                                              
+ ------ ---------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------- 
+  Line   app/Models/ScheduledPost.php                                                    
+ ------ -------------------------------------------------------------------------------- 
+  43     Call to an undefined method Illuminate\Database\Eloquent\Builder::scheduled().  
+         🪪  method.notFound                                                             
+ ------ -------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------- 
+  Line   app/Models/Series.php                                                                        
+ ------ --------------------------------------------------------------------------------------------- 
+  47     Method App\Models\Series::getProgressFor() should return App\Models\SeriesProgress|null but  
+         returns Illuminate\Database\Eloquent\Model|null.                                             
+         🪪  return.type                                                                              
+ ------ --------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------- 
+  Line   app/Models/StoryPoll.php                                                                     
+ ------ --------------------------------------------------------------------------------------------- 
+  34     Method App\Models\StoryPoll::vote() should return App\Models\StoryPollVote|null but returns  
+         Illuminate\Database\Eloquent\Model.                                                          
+         🪪  return.type                                                                              
+ ------ --------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------- 
+  Line   app/Models/StoryQuiz.php                                                                    
+ ------ -------------------------------------------------------------------------------------------- 
+  29     Method App\Models\StoryQuiz::answer() should return App\Models\StoryQuizAnswer but returns  
+         Illuminate\Database\Eloquent\Model.                                                         
+         🪪  return.type                                                                             
+ ------ -------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------- 
+  Line   app/Models/Team.php                                                                              
+ ------ ------------------------------------------------------------------------------------------------- 
+  21     PHPDoc type array<int, string> of property App\Models\Team::$fillable is not covariant with PHP  
+         Doc type list<string> of overridden property Illuminate\Database\Eloquent\Model::$fillable.      
+         🪪  property.phpDocType                                                                          
+         💡  You can fix 3rd party PHPDoc types with stub files:                                          
+         💡  https://phpstan.org/user-guide/stub-files                                                    
+ ------ ------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------- 
+  Line   app/Models/User.php                                                                              
+ ------ ------------------------------------------------------------------------------------------------- 
+  32     PHPDoc type array<int, string> of property App\Models\User::$fillable is not covariant with PHP  
+         Doc type list<string> of overridden property Illuminate\Database\Eloquent\Model::$fillable.      
+         🪪  property.phpDocType                                                                          
+         💡  You can fix 3rd party PHPDoc types with stub files:                                          
+         💡  https://phpstan.org/user-guide/stub-files                                                    
+  43     PHPDoc type array<int, string> of property App\Models\User::$hidden is not covariant with PHPDo  
+         c type list<string> of overridden property Illuminate\Database\Eloquent\Model::$hidden.          
+         🪪  property.phpDocType                                                                          
+         💡  You can fix 3rd party PHPDoc types with stub files:                                          
+         💡  https://phpstan.org/user-guide/stub-files                                                    
+  55     PHPDoc type array<int, string> of property App\Models\User::$appends is not covariant with PHPD  
+         oc type list<string> of overridden property Illuminate\Database\Eloquent\Model::$appends.        
+         🪪  property.phpDocType                                                                          
+         💡  You can fix 3rd party PHPDoc types with stub files:                                          
+         💡  https://phpstan.org/user-guide/stub-files                                                    
+  85     Method App\Models\User::getOrCreateProfile() should return App\Models\Profile but returns        
+         Illuminate\Database\Eloquent\Model|null.                                                         
+         🪪  return.type                                                                                  
+  121    Call to an undefined method Illuminate\Database\Eloquent\Relations\HasMany::friends().           
+         🪪  method.notFound                                                                              
+  128    Call to an undefined method Illuminate\Database\Eloquent\Relations\HasMany::friends().           
+         🪪  method.notFound                                                                              
+  140    Call to an undefined method Illuminate\Database\Eloquent\Relations\HasMany::friends().           
+         🪪  method.notFound                                                                              
+  145    Call to an undefined method Illuminate\Database\Eloquent\Relations\HasMany::friends().           
+         🪪  method.notFound                                                                              
+  154    Call to an undefined method Illuminate\Database\Eloquent\Relations\HasMany::friends().           
+         🪪  method.notFound                                                                              
+  163    Call to an undefined method Illuminate\Database\Eloquent\Relations\HasMany::friends().           
+         🪪  method.notFound                                                                              
+  179    Call to an undefined method Illuminate\Database\Eloquent\Relations\HasMany::friends().           
+         🪪  method.notFound                                                                              
+  188    Method App\Models\User::sendFriendRequest() should return App\Models\Connection|null but         
+         returns Illuminate\Database\Eloquent\Model.                                                      
+         🪪  return.type                                                                                  
+  203    Call to an undefined method Illuminate\Database\Eloquent\Relations\HasMany::follows().           
+         🪪  method.notFound                                                                              
+  213    Call to an undefined method Illuminate\Database\Eloquent\Relations\HasMany::follows().           
+         🪪  method.notFound                                                                              
+  223    Call to an undefined method Illuminate\Database\Eloquent\Relations\HasMany::follows().           
+         🪪  method.notFound                                                                              
+  246    Method App\Models\User::follow() should return App\Models\Connection|null but returns            
+         Illuminate\Database\Eloquent\Model.                                                              
+         🪪  return.type                                                                                  
+  270    Method App\Models\User::block() should return App\Models\Block|null but returns                  
+         Illuminate\Database\Eloquent\Model.                                                              
+         🪪  return.type                                                                                  
+  284    Call to an undefined method Illuminate\Database\Eloquent\Relations\HasMany::friends().           
+         🪪  method.notFound                                                                              
+  293    Call to an undefined method Illuminate\Database\Eloquent\Relations\HasMany::friends().           
+         🪪  method.notFound                                                                              
+  420    Method App\Models\User::addCloseFriend() should return App\Models\CloseFriend|null but returns   
+         Illuminate\Database\Eloquent\Model.                                                              
+         🪪  return.type                                                                                  
+  444    Method App\Models\User::restrict() should return App\Models\RestrictedUser|null but returns      
+         Illuminate\Database\Eloquent\Model.                                                              
+         🪪  return.type                                                                                  
+  523    Method App\Models\User::logActivity() should return App\Models\ActivityLog but returns           
+         Illuminate\Database\Eloquent\Model.                                                              
+         🪪  return.type                                                                                  
+  573    Method App\Models\User::poke() should return App\Models\Poke|null but returns                    
+         Illuminate\Database\Eloquent\Model.                                                              
+         🪪  return.type                                                                                  
+  584    Parameter #1 $user of method App\Models\User::poke() expects App\Models\User,                    
+         Illuminate\Database\Eloquent\Model|null given.                                                   
+         🪪  argument.type                                                                                
+  604    Access to an undefined property Illuminate\Database\Eloquent\Model::$allow_questions.            
+         🪪  property.notFound                                                                            
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property            
+  605    Access to an undefined property Illuminate\Database\Eloquent\Model::$allow_anonymous_questions.  
+         🪪  property.notFound                                                                            
+         💡  Learn more: https://phpstan.org/blog/solving-phpstan-access-to-undefined-property            
+  605    Using nullsafe property access on non-nullable type Illuminate\Database\Eloquent\Model. Use ->   
+         instead.                                                                                         
+         🪪  nullsafe.neverNull                                                                           
+  607    Method App\Models\User::askQuestion() should return App\Models\Question|null but returns         
+         Illuminate\Database\Eloquent\Model.                                                              
+         🪪  return.type                                                                                  
+  664    Call to an undefined method Illuminate\Database\Eloquent\Relations\HasMany::friends().           
+         🪪  method.notFound                                                                              
+  665    Call to an undefined method Illuminate\Database\Eloquent\Relations\HasMany::friends().           
+         🪪  method.notFound                                                                              
+ ------ ------------------------------------------------------------------------------------------------- 
+
+ [ERROR] Found 220 errors                                                                                 
+

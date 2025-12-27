@@ -1,0 +1,757 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Method App\\Actions\\Jetstream\\CreateTeam\:\:create\(\) should return App\\Models\\Team but returns Illuminate\\Database\\Eloquent\\Model\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Actions/Jetstream/CreateTeam.php
+
+		-
+			message: '#^Parameter \#1 \$invitation of class Laravel\\Jetstream\\Mail\\TeamInvitation constructor expects Laravel\\Jetstream\\TeamInvitation, Illuminate\\Database\\Eloquent\\Model given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Actions/Jetstream/InviteTeamMember.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>parts" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Livewire/Avatars/Editor.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Board\:\:\$visibility\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Livewire/Boards/Show.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model&object\{pivot\: Illuminate\\Database\\Eloquent\\Relations\\Pivot\}\:\:\$role\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Livewire/Boards/Show.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>balance" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Livewire/Coins/Purchase.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Collection\:\:\$is_default\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Livewire/Collections/Show.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Collection\:\:\$privacy\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Livewire/Collections/Show.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Relations\\HasMany\:\:friends\(\)\.$#'
+			identifier: method.notFound
+			count: 3
+			path: app/Livewire/Connections/ConnectionButton.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>display_name" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Livewire/Connections/FollowersList.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>username" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Livewire/Connections/FollowersList.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>display_name" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Livewire/Connections/FriendsList.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>username" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Livewire/Connections/FriendsList.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Relations\\HasMany\:\:friends\(\)\.$#'
+			identifier: method.notFound
+			count: 2
+			path: app/Livewire/Connections/PendingRequests.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\DigestPreference\:\:\$is_enabled\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Livewire/Digest/Preferences.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\DigestPreference\:\:\$preferred_day\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Livewire/Digest/Preferences.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Event\:\:\$start_date\.$#'
+			identifier: property.notFound
+			count: 6
+			path: app/Livewire/Events/Reminders.php
+
+		-
+			message: '#^Match expression does not handle remaining value\: string$#'
+			identifier: match.unhandled
+			count: 1
+			path: app/Livewire/Events/Reminders.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\EventTicketType\:\:\$max_per_user\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Livewire/Events/Tickets.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\EventTicketType\:\:\$quantity_available\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Livewire/Events/Tickets.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\EventTicketType\:\:\$quantity_sold\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Livewire/Events/Tickets.php
+
+		-
+			message: '#^Relation ''verifier'' is not found in App\\Models\\ContentVerification model\.$#'
+			identifier: larastan.relationExistence
+			count: 1
+			path: app/Livewire/FactCheck/Index.php
+
+		-
+			message: '#^Relation ''verifier'' is not found in App\\Models\\ContentVerification model\.$#'
+			identifier: larastan.relationExistence
+			count: 1
+			path: app/Livewire/FactCheck/Verify.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\User\:\:\$username\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Livewire/Feed/CreatePost.php
+
+		-
+			message: '#^Parameter \#1 \$callback of method Illuminate\\Database\\Eloquent\\Collection\<int,App\\Models\\User\>\:\:map\(\) contains unresolvable type\.$#'
+			identifier: argument.unresolvableType
+			count: 1
+			path: app/Livewire/Feed/CreatePost.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Relations\\HasMany\:\:completed\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Livewire/Fundraisers/Show.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>balance" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Livewire/Gifts/Index.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>balance" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Livewire/Gifts/SendTip.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>minimum_tip" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 2
+			path: app/Livewire/Gifts/SendTip.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Collection\<int, Illuminate\\Database\\Eloquent\\Model\>\|Illuminate\\Database\\Eloquent\\Model\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Livewire/Groups/Members.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Collection\<int, Illuminate\\Database\\Eloquent\\Model\>\|Illuminate\\Database\\Eloquent\\Model\:\:\$user_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Livewire/Groups/Members.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Collection\<int, Illuminate\\Database\\Eloquent\\Model\>\|Illuminate\\Database\\Eloquent\\Model\:\:approve\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Livewire/Groups/Members.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Collection\<int, Illuminate\\Database\\Eloquent\\Model\>\|Illuminate\\Database\\Eloquent\\Model\:\:promote\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Livewire/Groups/Members.php
+
+		-
+			message: '#^Comparison operation "\>" between int\<1, max\> and 0 is always true\.$#'
+			identifier: greater.alwaysTrue
+			count: 2
+			path: app/Livewire/Marketplace/Show.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Livewire/Media/CreateAlbum.php
+
+		-
+			message: '#^Parameter \#1 \$view of function view expects view\-string\|null, string given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Livewire/Messages/ConversationList.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\ModerationQueue\:\:\$content_id\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Livewire/Moderation/Queue.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\ModerationQueue\:\:\$content_type\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Livewire/Moderation/Queue.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\ModerationQueue\:\:\$reportable\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Livewire/Moderation/Queue.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\ModerationQueue\:\:\$user_id\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Livewire/Moderation/Queue.php
+
+		-
+			message: '#^Relation ''assignedModerator'' is not found in App\\Models\\ModerationQueue model\.$#'
+			identifier: larastan.relationExistence
+			count: 1
+			path: app/Livewire/Moderation/Queue.php
+
+		-
+			message: '#^Relation ''reportable'' is not found in App\\Models\\ModerationQueue model\.$#'
+			identifier: larastan.relationExistence
+			count: 2
+			path: app/Livewire/Moderation/Queue.php
+
+		-
+			message: '#^Relation ''reporter'' is not found in App\\Models\\ModerationQueue model\.$#'
+			identifier: larastan.relationExistence
+			count: 2
+			path: app/Livewire/Moderation/Queue.php
+
+		-
+			message: '#^Relation ''user'' is not found in App\\Models\\ModerationQueue model\.$#'
+			identifier: larastan.relationExistence
+			count: 2
+			path: app/Livewire/Moderation/Queue.php
+
+		-
+			message: '#^Relation ''creator'' is not found in App\\Models\\ModerationRule model\.$#'
+			identifier: larastan.relationExistence
+			count: 1
+			path: app/Livewire/Moderation/Rules.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Relations\\HasMany\:\:unread\(\)\.$#'
+			identifier: method.notFound
+			count: 2
+			path: app/Livewire/Notifications/NotificationDropdown.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Relations\\HasMany\:\:unread\(\)\.$#'
+			identifier: method.notFound
+			count: 3
+			path: app/Livewire/Notifications/NotificationList.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>bio" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Livewire/Onboarding/Welcome.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>display_name" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Livewire/Onboarding/Welcome.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>headline" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Livewire/Onboarding/Welcome.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>location" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Livewire/Onboarding/Welcome.php
+
+		-
+			message: '#^Parameter \#1 \$poke of method App\\Models\\User\:\:pokeBack\(\) expects App\\Models\\Poke, Illuminate\\Database\\Eloquent\\Collection\<int, Illuminate\\Database\\Eloquent\\Model\>\|Illuminate\\Database\\Eloquent\\Model given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Livewire/Pokes/Index.php
+
+		-
+			message: '#^Call to an undefined static method App\\Models\\Badge\:\:active\(\)\.$#'
+			identifier: staticMethod.notFound
+			count: 1
+			path: app/Livewire/Profile/Badges.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>value" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Livewire/Profile/Edit.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>visibility" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Livewire/Profile/Edit.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>allow_anonymous_questions" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Livewire/Questions/Ask.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Collection\<int, Illuminate\\Database\\Eloquent\\Model\>\|Illuminate\\Database\\Eloquent\\Model\:\:likes\(\)\.$#'
+			identifier: method.notFound
+			count: 3
+			path: app/Livewire/Questions/ProfileQuestions.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Collection\<int, Illuminate\\Database\\Eloquent\\Model\>\|Illuminate\\Database\\Eloquent\\Model\:\:\$is_current\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Livewire/Security/Sessions.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Series\:\:\$visibility\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Livewire/Series/Show.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$completed_items\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Livewire/Series/Show.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$last_item_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Livewire/Series/Show.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$last_watched_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Livewire/Series/Show.php
+
+		-
+			message: '#^Call to an undefined method App\\Models\\Series\:\:updateItemCount\(\)\.$#'
+			identifier: method.notFound
+			count: 2
+			path: app/Livewire/Series/Show.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>display_name" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Livewire/Settings/CloseFriends.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\StoryHighlight\:\:\$items\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Livewire/Stories/Highlights.php
+
+		-
+			message: '#^Call to an undefined method App\\Models\\StoryHighlight\:\:items\(\)\.$#'
+			identifier: method.notFound
+			count: 3
+			path: app/Livewire/Stories/Highlights.php
+
+		-
+			message: '#^Call to an undefined method App\\Models\\StoryHighlight\|Illuminate\\Database\\Eloquent\\Collection\<int, App\\Models\\StoryHighlight\>\:\:items\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Livewire/Stories/Highlights.php
+
+		-
+			message: '#^Relation ''items'' is not found in App\\Models\\StoryHighlight model\.$#'
+			identifier: larastan.relationExistence
+			count: 3
+			path: app/Livewire/Stories/Highlights.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Builder\<Illuminate\\Database\\Eloquent\\Model\>\:\:active\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Livewire/Stories/StoryBar.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Relations\\HasMany\:\:active\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Livewire/Stories/StoryBar.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\StoryQuiz\|Illuminate\\Database\\Eloquent\\Collection\<int, App\\Models\\StoryQuiz\>\:\:\$correct_option\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Livewire/Stories/StoryInteractions.php
+
+		-
+			message: '#^Call to an undefined method App\\Models\\StoryPoll\|Illuminate\\Database\\Eloquent\\Collection\<int, App\\Models\\StoryPoll\>\:\:hasVoted\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Livewire/Stories/StoryInteractions.php
+
+		-
+			message: '#^Call to an undefined method App\\Models\\StoryQuiz\|Illuminate\\Database\\Eloquent\\Collection\<int, App\\Models\\StoryQuiz\>\:\:hasAnswered\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Livewire/Stories/StoryInteractions.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$path\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Album.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$thumbnail\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Album.php
+
+		-
+			message: '#^Expression on left side of \?\? is not nullable\.$#'
+			identifier: nullCoalesce.expr
+			count: 1
+			path: app/Models/Album.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Builder\<Illuminate\\Database\\Eloquent\\Model\>\:\:friends\(\)\.$#'
+			identifier: method.notFound
+			count: 2
+			path: app/Models/Article.php
+
+		-
+			message: '#^Method App\\Models\\CoinBalance\:\:credit\(\) should return App\\Models\\CoinTransaction but returns Illuminate\\Database\\Eloquent\\Model\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Models/CoinBalance.php
+
+		-
+			message: '#^Method App\\Models\\CoinBalance\:\:debit\(\) should return App\\Models\\CoinTransaction\|null but returns Illuminate\\Database\\Eloquent\\Model\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Models/CoinBalance.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$last_read_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Conversation.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:startTyping\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Models/Conversation.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:stopTyping\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Models/Conversation.php
+
+		-
+			message: '#^Method App\\Models\\Conversation\:\:sendMessage\(\) should return App\\Models\\Message but returns Illuminate\\Database\\Eloquent\\Model\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Models/Conversation.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>avatar_url" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Models/Conversation.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>display_name" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Models/Conversation.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>name" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Models/Conversation.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Models/Event.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Builder\<Illuminate\\Database\\Eloquent\\Model\>\:\:friends\(\)\.$#'
+			identifier: method.notFound
+			count: 2
+			path: app/Models/Event.php
+
+		-
+			message: '#^Method App\\Models\\Event\:\:setRsvp\(\) should return App\\Models\\EventRsvp but returns Illuminate\\Database\\Eloquent\\Model\.$#'
+			identifier: return.type
+			count: 3
+			path: app/Models/Event.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>name" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Models/FundraiserDonation.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Group.php
+
+		-
+			message: '#^Deprecated in PHP 8\.4\: Parameter \#1 \$user \(App\\Models\\User\) is implicitly nullable via default value null\.$#'
+			identifier: parameter.implicitlyNullable
+			count: 2
+			path: app/Models/Group.php
+
+		-
+			message: '#^Method App\\Models\\Group\:\:join\(\) should return App\\Models\\GroupMember\|null but returns Illuminate\\Database\\Eloquent\\Model\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Models/Group.php
+
+		-
+			message: '#^Comparison operation "\>" between int\<1, max\> and 0 is always true\.$#'
+			identifier: greater.alwaysTrue
+			count: 1
+			path: app/Models/MarketplaceListing.php
+
+		-
+			message: '#^Method App\\Models\\Media\:\:tagUser\(\) should return App\\Models\\PhotoTag but returns Illuminate\\Database\\Eloquent\\Model\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Models/Media.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Mention.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$user_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Mention.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:mentions\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Models/Mention.php
+
+		-
+			message: '#^Offset 1 on array\{list\<string\>, list\<non\-empty\-string\>\} on left side of \?\? always exists and is not nullable\.$#'
+			identifier: nullCoalesce.offset
+			count: 1
+			path: app/Models/Mention.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$emoji\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Message.php
+
+		-
+			message: '#^Method App\\Models\\Message\:\:toggleReaction\(\) should return App\\Models\\MessageReaction\|null but returns Illuminate\\Database\\Eloquent\\Model\.$#'
+			identifier: return.type
+			count: 2
+			path: app/Models/Message.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$option\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Poll.php
+
+		-
+			message: '#^Method App\\Models\\Post\:\:addReaction\(\) should return App\\Models\\Reaction but returns Illuminate\\Database\\Eloquent\\Model\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Models/Post.php
+
+		-
+			message: '#^Method App\\Models\\Post\:\:getUserReaction\(\) should return App\\Models\\Reaction\|null but returns Illuminate\\Database\\Eloquent\\Model\|null\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Models/Post.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>nodeValue" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 5
+			path: app/Models/Post.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$value\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Profile.php
+
+		-
+			message: '#^Deprecated in PHP 8\.4\: Parameter \#2 \$notes \(string\) is implicitly nullable via default value null\.$#'
+			identifier: parameter.implicitlyNullable
+			count: 2
+			path: app/Models/Report.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Builder\:\:scheduled\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Models/ScheduledPost.php
+
+		-
+			message: '#^Method App\\Models\\Series\:\:getProgressFor\(\) should return App\\Models\\SeriesProgress\|null but returns Illuminate\\Database\\Eloquent\\Model\|null\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Models/Series.php
+
+		-
+			message: '#^Method App\\Models\\StoryPoll\:\:vote\(\) should return App\\Models\\StoryPollVote\|null but returns Illuminate\\Database\\Eloquent\\Model\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Models/StoryPoll.php
+
+		-
+			message: '#^Method App\\Models\\StoryQuiz\:\:answer\(\) should return App\\Models\\StoryQuizAnswer but returns Illuminate\\Database\\Eloquent\\Model\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Models/StoryQuiz.php
+
+		-
+			message: '#^PHPDoc type array\<int, string\> of property App\\Models\\Team\:\:\$fillable is not covariant with PHPDoc type list\<string\> of overridden property Illuminate\\Database\\Eloquent\\Model\:\:\$fillable\.$#'
+			identifier: property.phpDocType
+			count: 1
+			path: app/Models/Team.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Relations\\HasMany\:\:follows\(\)\.$#'
+			identifier: method.notFound
+			count: 3
+			path: app/Models/User.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Relations\\HasMany\:\:friends\(\)\.$#'
+			identifier: method.notFound
+			count: 11
+			path: app/Models/User.php
+
+		-
+			message: '#^Method App\\Models\\User\:\:addCloseFriend\(\) should return App\\Models\\CloseFriend\|null but returns Illuminate\\Database\\Eloquent\\Model\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: '#^Method App\\Models\\User\:\:askQuestion\(\) should return App\\Models\\Question\|null but returns Illuminate\\Database\\Eloquent\\Model\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: '#^Method App\\Models\\User\:\:block\(\) should return App\\Models\\Block\|null but returns Illuminate\\Database\\Eloquent\\Model\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: '#^Method App\\Models\\User\:\:follow\(\) should return App\\Models\\Connection\|null but returns Illuminate\\Database\\Eloquent\\Model\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: '#^Method App\\Models\\User\:\:logActivity\(\) should return App\\Models\\ActivityLog but returns Illuminate\\Database\\Eloquent\\Model\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: '#^Method App\\Models\\User\:\:poke\(\) should return App\\Models\\Poke\|null but returns Illuminate\\Database\\Eloquent\\Model\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: '#^Method App\\Models\\User\:\:restrict\(\) should return App\\Models\\RestrictedUser\|null but returns Illuminate\\Database\\Eloquent\\Model\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: '#^Method App\\Models\\User\:\:sendFriendRequest\(\) should return App\\Models\\Connection\|null but returns Illuminate\\Database\\Eloquent\\Model\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: '#^PHPDoc type array\<int, string\> of property App\\Models\\User\:\:\$appends is not covariant with PHPDoc type list\<string\> of overridden property Illuminate\\Database\\Eloquent\\Model\:\:\$appends\.$#'
+			identifier: property.phpDocType
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: '#^PHPDoc type array\<int, string\> of property App\\Models\\User\:\:\$fillable is not covariant with PHPDoc type list\<string\> of overridden property Illuminate\\Database\\Eloquent\\Model\:\:\$fillable\.$#'
+			identifier: property.phpDocType
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: '#^PHPDoc type array\<int, string\> of property App\\Models\\User\:\:\$hidden is not covariant with PHPDoc type list\<string\> of overridden property Illuminate\\Database\\Eloquent\\Model\:\:\$hidden\.$#'
+			identifier: property.phpDocType
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: '#^Using nullsafe property access on non\-nullable type App\\Models\\Profile\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Models/User.php

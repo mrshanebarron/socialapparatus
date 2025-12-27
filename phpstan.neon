@@ -1,0 +1,20 @@
+includes:
+    - ./vendor/larastan/larastan/extension.neon
+    - phpstan-baseline.neon
+
+parameters:
+    paths:
+        - app/
+        - routes/
+        - config/
+
+    # The level 8 is the highest level
+    level: 5
+
+#    ignoreErrors:
+#        - '#Unsafe usage of optional helper#'
+
+#    excludePaths:
+#        - ./*/*/FileToBeExcluded.php
+
+#    checkMissingIterableValueType: false
